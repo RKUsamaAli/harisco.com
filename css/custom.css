@@ -1,0 +1,50 @@
+/* =Table of Contents */
+.navbar-default { background: #fff; border-bottom: 1px solid #eee; }
+.navbar-default .navbar-nav > li > a {color: #1d1d1d;}
+.navbar-default .navbar-nav > li > a span {font-size: 20px; margin: -30px 0 !important; line-height: 2.2; }
+.navbar-default .navbar-nav li a:hover { color: #007ab8;}
+/* Carousel base class */
+.carousel { height: 100%; overflow: hidden;}
+.carousel-inner > .item > img { z-index: -9; }
+.carousel-caption { z-index: 100; position: absolute; top: 25%; text-align: left; right: 60%; left: 10%; background: transparent; padding: 0; width: 25%; }
+.carousel-caption h1 { background-color: rgba(58,191,240, 0.9); padding: 20px; margin: 0; font-size: 1.7em; font-weight: 100;
+ text-transform: uppercase;}
+.carousel-caption p {background-color: rgba(34,48,109, 0.9);  padding: 20px; font-weight: 100;}
+.carousel-control.left {background-image: none;}
+.carousel-control.right {background-image: none;}
+.carousel-control span, .carousel-control span {position: relative; top: 50%; color: #fff; background-color: rgba(0,0,0,0.8); 
+	border-radius: 50%; }
+
+
+.team-member-box p { font-size: 14px; }
+
+.client img { width: 100px; float: left; margin: 13px; border:1px solid #f8f8f8; padding: 10px; }
+#client-carousel .item img { display: block; float: left; width: 150px; margin: 0 20px;
+filter: url(http://harisco.com/css/filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+ }
+
+ /*#client-carousel .item img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+*/
+.services-box {padding: 0; }
+.sbox1 { background: #fff url(../images/services/3.jpg) no-repeat; background-size: 100%; height: 100px;  }
+.sbox2 { background: #fff url(../images/services/minebe.png) no-repeat; background-size: 100%; height: 100px;  }
+.sbox3 { background: #fff url(../images/services/4.png) no-repeat; background-size: 100%; height: 100px;  }
+.sbox4 { background: #fff url(../images/services/5.png) no-repeat; background-size: 100%; height: 100px;  }
+.sbox5 { background: #fff url(../images/services/6.png) no-repeat; background-size: 100%; height: 100px;  }
+.sbox6 { background: #fff url(../images/services/7.jpg) no-repeat; background-size: 100%; height: 100px;  }
+.sbox7 { background: #fff url(../images/services/soco.png) no-repeat; background-size: 50%; height: 70px;  }
+.sbox8 { background: #fff url(../images/services/industry.jpg) no-repeat; background-size: 50%; height: 70px;  }
+.sbox9 { background: #fff url(../images/services/utiservice.jpg) no-repeat; background-size: 50%; height: 70px;  }
+.sbox10 { background: #fff no-repeat; background-size: 50%; height: 70px;  }
+.services-inner { padding: 20px 30px; }
+
+
+footer{ padding: 20px 0; }
